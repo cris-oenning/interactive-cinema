@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# Interactive Cinema:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Application of a web page of an interactive and dynamic cinema. When accessing a page, users have access to a list of movies coming from an external API, which was integrated and made available in the GitHub repository and to get movie data, the application consumes the external API, which was routed through the My JSON Server service.
 
-## Available Scripts
+Through integration with React Router Dom, it was possible to create routes and navigation between the different pages of the application. When clicking on a specific movie, the movie's player page opens, giving users the experience of watching the chosen movie.
 
-In the project directory, you can run:
+An interesting feature implemented in the application is the option to favor or disfavor a movie. Users can bookmark a movie and then the movie redirects to a new bookmark-specific page. This feature allows users to create a personalized list of their favorite movies.
 
-### `npm start`
+Overall, this React application, using React Router Dom hooks, provides users with an immersive experience of browsing a movie webpage, where it is possible to bookmark movies, create a favorites list and watch selected movies directly on the page. player.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# How to use:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1º Option:
+Access the website below:
 
-### `npm test`
+http...
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2º Option:
 
-### `npm run build`
+Requires Node.Js version 18 (or higher) installed. -> https://nodejs.org/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Install Node.Js 18 (or higher) from the official website https://nodejs.org/, if not installed.
+4. Use the command "npm i" in the terminal to install all necessary dependencies.
+5. Use the command "npm start" in the terminal to open the web system in your browser in 'http://localhost:3000
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Expansion:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+With this code base, you will be able to further expand the functionalities of this web system, as you will always have functionalities to add and refine errors, test, creating your own functionalities according to your needs.
